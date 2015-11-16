@@ -108,3 +108,10 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export PATH=/root/anaconda/bin:$PATH
+
+# added by Anaconda 2.3.0 installer
+export PATH="/home/halie/anaconda/bin:$PATH"
+
+PATH=/home/halie/simFlow/simFlow:${PATH};export PATH; # ADDED BY INSTALLER - DO NOT EDIT OR DELETE THIS COMMENT - 8F1FFBF3-4166-531F-536F-118E03C20EE2 6736FAEE-3AE1-6D52-789F-E2B315B75C32
